@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BrainBites</title>
+<style>
+  :root { --bg:#06080b; --ink:#eef3f1; --mut:#7c8a90; --grn:#3fe08a; --line:rgba(124,138,144,.18); }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:radial-gradient(120% 120% at 50% 20%, #0a0f14 0%, #06080b 60%); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex; align-items:center; justify-content:center; padding:24px; }
+  .card { max-width:560px; text-align:center; }
+  .badge { display:inline-flex; align-items:center; gap:12px; margin-bottom:28px; }
+  .dot { width:16px; height:16px; border-radius:50%; background:var(--grn); box-shadow:0 0 16px rgba(63,224,138,.8); }
+  .brand { font-weight:800; letter-spacing:.22em; font-size:18px; }
+  h1 { font-size:30px; margin:0 0 14px; letter-spacing:-.01em; }
+  p { color:var(--mut); margin:0 auto 32px; max-width:460px; }
+  .links { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  a.btn { text-decoration:none; color:var(--ink); border:1px solid var(--line); padding:12px 22px; border-radius:12px; font-weight:600; }
+  a.btn:hover { border-color:var(--grn); color:var(--grn); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge"><span class="dot"></span><span class="brand">BRAINBITES</span></div>
+    <h1>Tech, scams &amp; staying safe online — in 30 seconds.</h1>
+    <p>Short, fact-checked educational videos about cybersecurity, online scams and everyday technology for regular people.</p>
+    <div class="links">
+      <a class="btn" href="privacy.html">Privacy Policy</a>
+      <a class="btn" href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+</body>
+</html>
